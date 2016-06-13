@@ -1,5 +1,6 @@
 class hipchat(
     $manage_repo = true,
+    $server = $hipchat_server,
     ) {
 
   if $manage_repo {
