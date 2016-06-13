@@ -2,7 +2,7 @@
 
 This is a simple module for installing Atlassian's HipChat client.
 
-Currently, it just supports Ubuntu but should be trivial to extend by following [these instructions](https://www.hipchat.com/linux) provided by Atlassian. 
+This adds support for on-site hipchat servers, so that authentication traffic doesn't leave the local network. it extends k4k's version which added RHEL support
 
 Use it by declaring the hipchat class.
 
