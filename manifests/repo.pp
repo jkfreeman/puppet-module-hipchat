@@ -13,6 +13,7 @@ class hipchat::repo {
       apt::key { 'hipchat':
         key_source => 'https://www.hipchat.com/keys/hipchat-linux.key',
       }
+      }
       'RedHat': {
 
         yumrepo { 'hipchat' :
@@ -29,4 +30,3 @@ class hipchat::repo {
 
   }
 
-}
