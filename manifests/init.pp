@@ -1,6 +1,6 @@
 class hipchat(
     $manage_repo = true,
-    $server = pick($::hipchat_server,$hipchat_server, false),
+    $server
     ) {
 
   if $manage_repo {
